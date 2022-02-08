@@ -1,0 +1,18 @@
+body {
+    margin: auto;
+    height: 100vh;
+    padding: 20px;
+}
+
+#header {
+    background-color: #f5f5f5;
+    padding: 10px 10px 10px 0px;
+    font-size: 22px;
+}
+
+#footer {
+    background-color: #f5f5f5;
+    padding: 10px 10px 10px 0px;
+    font-size: 22px;
+    background-color: rgba(red, green, blue, alpha);
+}

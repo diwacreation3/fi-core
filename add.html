@@ -1,0 +1,92 @@
+<html>
+
+<head>
+    <title>Add Data</title>
+</head>
+
+<body>
+    <div>
+        <nav>
+            <h2>Fire-Ice Simple Data entry test site.</h2>
+            <ul>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="view.php">View Details</a></li>
+                <li><a href="logout.php">Logout</a></li>
+            </ul>
+        </nav>
+    </div>
+    <form action="add.php" method="post" name="form1">
+        <table class="table">
+            <p>Customer Name</p>
+            <input type="text" name="name" placeholder="Name" required>
+            <p>Amount(Qty)</p>
+            <input type="text" name="qty" placeholder="Amount(Qty)" required>
+            <p>Price(Rs.)</p>
+            <input type="text" name="price" placeholder="Price Rs." required>
+            <br>
+            <input class="submit" type="submit" name="Submit" value="Add">
+
+        </table>
+    </form>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background: #fff;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav li {
+            padding-left: 1rem;
+            border: 2px solid #ccc;
+            border-radius: 25px;
+            padding: 5px;
+            background: #5ca1e1;
+            cursor: pointer;
+        }
+        
+        nav li:hover {
+            background-color: #ccc;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        p {
+            font-family: sans-serif;
+            font-size: 20px;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .submit {
+            background-color: royalblue;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 25px;
+        }
+        
+        .submit:hover {
+            background-color: #ccc;
+        }
+        
+        input {
+            border-radius: 25px;
+            padding: 10px;
+        }
+    </style>
+</body>
+
+</html>
